@@ -1,0 +1,17 @@
+services:
+
+    db:
+        image: mysql
+        ports:
+          - 3306
+        container_name: db_linc
+        restart: always
+        volumes:
+            - db-data:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: linc@2023
+            MYSQL_DATABASE: root
+            MYSQL_USER: root
+            MYSQL_PASSWORD: linc@2023
+        networks:
+            - dev
