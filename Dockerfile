@@ -19,5 +19,5 @@ RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf \
 RUN echo "memory_limit = 25600M" > /usr/local/etc/php/php.ini \
     && echo "max_execution_time = 1200" >> /usr/local/etc/php/php.ini
 
-# Définir le répertoire de travail
+# Définir le répertoire de travail v
 WORKDIR /var/www/
