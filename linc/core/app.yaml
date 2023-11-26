@@ -1,0 +1,16 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+env_variables:
+  # Configure your database settings here
+  DB_CONNECTION: mysql
+  DB_HOST: your_mysql_host
+  DB_DATABASE: your_database_name
+  DB_USERNAME: your_mysql_username
+  DB_PASSWORD: your_mysql_password
+
+beta_settings:
+  cloud_sql_instances: your_project_id:your_region:your_instance_name
