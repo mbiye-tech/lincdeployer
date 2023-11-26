@@ -1,7 +1,0 @@
-runtime: php
-
-env_variables:
-  CLOUD_SQL_USERNAME: root
-  CLOUD_SQL_PASSWORD: linc@2023
-  CLOUD_SQL_DATABASE_NAME: lincdb
-  CLOUD_SQL_CONNECTION_NAME: appdeploy-402517:us-central1:lincbd
