@@ -12,7 +12,8 @@ env_variables:
   DB_CONNECTION: mysql
   SESSION_DRIVER: lincdb
   DB_DATABASE: lincbd
-  DB_HOST: appdeploy-402517:us-central1:lincbd
+  DB_HOST: 34.172.68.204	
+  #DB_HOST: appdeploy-402517:us-central1:lincbd
   DB_PASSWORD: linc@2023
   DB_PORT: '3306'
   DB_SOCKET: /cloudsql/appdeploy-402517:us-central1:lincbd
